@@ -1,0 +1,77 @@
+.select {
+    width: max-content;
+    box-sizing: border-box;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.border--expan {
+    border-color: #019160;
+}
+
+.select .text {
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px #e5e5e5 solid;
+    border-radius: 4px 0px 0px 4px;
+    height: 38px;
+    line-height: 38px;
+    min-width: 160px;
+    font-size: 13px;
+    color: #000;
+    padding-left: 16px;
+    border: none;
+    outline: none;
+}
+
+.select .hint {
+    font-size: 11px;
+    color: #bbb;
+}
+
+.select .icon {
+    float: right;
+    box-sizing: border-box;
+    border-radius: 0px 4px 4px 0px;
+    height: 38px;
+    width: 40px;
+    background-image: url(/angle-up-solid.svg);
+    background-size: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+
+.select .icon--up {
+    background-color: #e5e5e5;
+    transform: rotate(0deg);
+}
+
+.select .item {
+    position: fixed;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px #e5e5e5 solid;
+    height: 40px;
+    line-height: 40px;
+    width: max-content;
+    font-size: 13px;
+    color: #000;
+    padding-left: 36px;
+    background-size: 16px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    display: none;
+    z-index: 99;
+}
+
+.select .item:hover {
+    background-color: #e9ebee;
+}
+
+.select .item--selected {
+    background-color: #019160;
+    color: #e9ebee;
+    background-image: url(/check-solid.svg);
+}

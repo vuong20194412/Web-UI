@@ -1,0 +1,116 @@
+.input {
+    background-color: #fff;
+}
+
+.input label {
+    font-size: 13px;
+    color: #000;
+    padding-bottom: 4px;
+}
+
+.input .input-label {
+    box-sizing: border-box;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+}
+
+.input .input-label input {
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    height: 38px;
+    min-width: 158px;
+    width: calc(100% - 42px);
+    border-radius: 0px 0px 4px 4px;
+    padding: 0px 0px 0px 16px;
+}
+
+.input .input-label .icon {
+    float: right;
+    box-sizing: border-box;
+    height: 38px;
+    width: 40px;
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.input .input-label .hint {
+    font-size: 11px;
+    color: #bbb;
+}
+
+.input .input-icon {
+    box-sizing: border-box;
+    border: 0px #bbb solid;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 200px;
+    height: 40px;
+}
+
+.input .input-icon input {
+    float: right;
+    box-sizing: border-box;
+    height: 38px;
+    width: 158px;
+    border: none;
+    outline: none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.input .input-icon .icon {
+    float: left;
+    box-sizing: border-box;
+    height: 38px;
+    width: 40px;
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.input .input-icon .hint {
+    font-size: 12px;
+    color: #bbb;
+}
+
+.icon--search {
+    background-image: url(/magnifying-glass-solid.svg);
+}
+
+.icon--calender-date {
+    background-image: url(/calendar-days-solid.svg);
+}
+
+.icon--circle-x {
+    background-image: url(/circle-xmark-solid.svg);
+}
+
+.input .input-label input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+.input .input-label input::-ms-calendar-picker-indicator{
+    display: none;
+}
+
+.input .input-label input::-o-calendar-picker-indicator{
+    display: none;
+}
+
+.input .input-label input::-moz-calendar-picker-indicator{
+    display: none;
+}
+
+.input .notice {
+    height: 16px;
+    font-size: 13px;
+    color: #ff0000;
+}
+
+.input .focus {
+    border-color: #019160;
+}
